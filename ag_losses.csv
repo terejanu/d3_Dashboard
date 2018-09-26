@@ -1,0 +1,535 @@
+"Year","Commodity_Name","Losses"
+2001,"ADJUSTED GROSS REVENUE        ",2239651
+2001,"ALMONDS                       ",2958732
+2001,"APPLES                        ",6675389
+2001,"BARLEY                        ",8103790
+2001,"BURLEY TOBACCO                ",1150037
+2001,"CANOLA                        ",1591411
+2001,"CIGAR WRAPPER TOBACCO         ",1729176
+2001,"CLAMS                         ",1055166
+2001,"CORN                          ",80276408
+2001,"COTTON                        ",403715711
+2001,"COTTON EX LONG STAPLE         ",8015583
+2001,"DRY BEANS                     ",19322127
+2001,"FLUE CURED TOBACCO            ",1391681
+2001,"FORAGE PRODUCTION             ",5071325
+2001,"FRESH MARKET SWEET CORN       ",1160400
+2001,"FRESH MARKET TOMATOES         ",1028680
+2001,"GRAIN SORGHUM                 ",27465423
+2001,"GRAPES                        ",2950222
+2001,"MACADAMIA NUTS                ",1109656
+2001,"NURSERY (FG&C)                ",35979794
+2001,"ONIONS                        ",3298654
+2001,"ORANGE TREES                  ",1580107
+2001,"PEACHES                       ",1481674
+2001,"PEANUTS                       ",33986535
+2001,"PEPPERS                       ",1078070
+2001,"POTATOES                      ",14621071
+2001,"PRUNES                        ",7172015
+2001,"RANGELAND                     ",5578890
+2001,"SOYBEANS                      ",20438497
+2001,"STRAWBERRIES                  ",1328080
+2001,"SUGAR BEETS                   ",21629105
+2001,"SUNFLOWERS                    ",18873763
+2001,"SWEETPOTATOES                 ",5375941
+2001,"TOMATOES                      ",1299038
+2001,"WHEAT                         ",211001078
+2002,"ADJUSTED GROSS REVENUE        ",2946395
+2002,"All Other Crops               ",2746002
+2002,"ALMONDS                       ",1583123
+2002,"BARLEY                        ",2239316
+2002,"BURLEY TOBACCO                ",6593040
+2002,"CANOLA                        ",6196843
+2002,"CLAMS                         ",2856224
+2002,"CORN                          ",442680563
+2002,"COTTON                        ",169752227
+2002,"COTTON EX LONG STAPLE         ",10218015
+2002,"DRY BEANS                     ",5378256
+2002,"FLUE CURED TOBACCO            ",22859031
+2002,"FORAGE PRODUCTION             ",6391572
+2002,"FRESH MARKET BEANS            ",6539739
+2002,"FRESH MARKET TOMATOES         ",1004957
+2002,"GRAIN SORGHUM                 ",77093401
+2002,"GRAPES                        ",3695601
+2002,"LEMONS                        ",1759848
+2002,"LIME TREES                    ",1237845
+2002,"MILLET                        ",1120449
+2002,"NAVEL ORANGES                 ",4442833
+2002,"NURSERY (FG&C)                ",3995481
+2002,"ONIONS                        ",3825740
+2002,"PEACHES                       ",1150737
+2002,"PEANUTS                       ",15220287
+2002,"PEPPERS                       ",3161311
+2002,"POTATOES                      ",16729570
+2002,"RANGELAND                     ",15595279
+2002,"SOYBEANS                      ",58832456
+2002,"STRAWBERRIES                  ",1094183
+2002,"SUGAR BEETS                   ",25373330
+2002,"SUNFLOWERS                    ",18786958
+2002,"SWEETPOTATOES                 ",5570537
+2002,"WHEAT                         ",323567477
+2003,"ADJUSTED GROSS REVENUE        ",4252640
+2003,"All Other Crops               ",7959261
+2003,"APPLES                        ",9197929
+2003,"BARLEY                        ",5962395
+2003,"BURLEY TOBACCO                ",9401687
+2003,"CANOLA                        ",1261959
+2003,"CIGAR BINDER TOBACCO          ",3851734
+2003,"CLAMS                         ",1303180
+2003,"CORN                          ",148872498
+2003,"COTTON                        ",225901133
+2003,"COTTON EX LONG STAPLE         ",7323901
+2003,"DRY BEANS                     ",1619156
+2003,"FLUE CURED TOBACCO            ",46625817
+2003,"FORAGE PRODUCTION             ",1602230
+2003,"FRESH MARKET BEANS            ",1202868
+2003,"GRAIN SORGHUM                 ",29159940
+2003,"NURSERY (FG&C)                ",16757255
+2003,"ONIONS                        ",12401878
+2003,"PEACHES                       ",1520169
+2003,"PEANUTS                       ",2287567
+2003,"PEPPERS                       ",8225783
+2003,"POTATOES                      ",19800898
+2003,"RANGELAND                     ",3407691
+2003,"RICE                          ",1190741
+2003,"SOYBEANS                      ",274685568
+2003,"STRAWBERRIES                  ",6531026
+2003,"SUGAR BEETS                   ",1461457
+2003,"SUNFLOWERS                    ",8121016
+2003,"SWEETPOTATOES                 ",3932920
+2003,"TOMATOES                      ",1584539
+2003,"WHEAT                         ",97712050
+2004,"ADJUSTED GROSS REVENUE        ",17349191
+2004,"All Other Crops               ",5782943
+2004,"ALMONDS                       ",3095745
+2004,"APPLES                        ",3928165
+2004,"BURLEY TOBACCO                ",5937727
+2004,"CANOLA                        ",19232544
+2004,"CHERRIES                      ",2160118
+2004,"CIGAR BINDER TOBACCO          ",1251595
+2004,"CORN                          ",122971787
+2004,"COTTON                        ",50063760
+2004,"DRY BEANS                     ",8401093
+2004,"FLUE CURED TOBACCO            ",8531906
+2004,"FORAGE PRODUCTION             ",14027467
+2004,"FRESH MARKET BEANS            ",1330326
+2004,"FRESH MARKET TOMATOES         ",1891249
+2004,"GRAIN SORGHUM                 ",23698098
+2004,"GRAPES                        ",1691663
+2004,"NURSERY (FG&C)                ",62515040
+2004,"ONIONS                        ",12939391
+2004,"ORANGE TREES                  ",5115486
+2004,"PEANUTS                       ",1054927
+2004,"PEPPERS                       ",5873726
+2004,"POTATOES                      ",12677610
+2004,"PRUNES                        ",18770480
+2004,"RANGELAND                     ",20036316
+2004,"SOYBEANS                      ",181339791
+2004,"SUGAR BEETS                   ",9654051
+2004,"SUNFLOWERS                    ",3708586
+2004,"VALENCIA ORANGES              ",2431687
+2004,"WHEAT                         ",149021818
+2005,"ALL OTHER CITRUS TREES        ",1661864
+2005,"All Other Crops               ",5626884
+2005,"ALMONDS                       ",17565716
+2005,"APPLES                        ",10098842
+2005,"CANOLA                        ",3898778
+2005,"CHERRIES                      ",3994177
+2005,"CITRUS I                      ",12141635
+2005,"CITRUS II                     ",18327633
+2005,"CITRUS IV                     ",2663457
+2005,"CITRUS V                      ",1317856
+2005,"CITRUS VII                    ",25280181
+2005,"CORN                          ",214684739
+2005,"COTTON                        ",37017361
+2005,"DRY BEANS                     ",8661641
+2005,"FLUE CURED TOBACCO            ",2349412
+2005,"GRAPEFRUIT TREES              ",16415716
+2005,"MILLET                        ",1052341
+2005,"NURSERY (FG&C)                ",132182089
+2005,"ONIONS                        ",3431143
+2005,"ORANGE TREES                  ",74232575
+2005,"PEACHES                       ",2512320
+2005,"PEANUTS                       ",2652175
+2005,"POTATOES                      ",12390204
+2005,"PRUNES                        ",13863026
+2005,"RAISINS                       ",1741584
+2005,"RANGELAND                     ",5763322
+2005,"RICE                          ",2219540
+2005,"SOYBEANS                      ",18898633
+2005,"SUGAR BEETS                   ",30721509
+2005,"SUNFLOWERS                    ",1030247
+2005,"WHEAT                         ",50369758
+2006,"All Other Crops               ",6731052
+2006,"ALMONDS                       ",4561650
+2006,"APPLES                        ",20911303
+2006,"CANOLA                        ",4776098
+2006,"CHERRIES                      ",3189044
+2006,"CIGAR WRAPPER TOBACCO         ",3481654
+2006,"CITRUS I                      ",8347614
+2006,"CITRUS II                     ",9182056
+2006,"CITRUS VII                    ",23581205
+2006,"CORN                          ",317756942
+2006,"COTTON                        ",322941795
+2006,"COTTON EX LONG STAPLE         ",3014970
+2006,"DRY BEANS                     ",5896886
+2006,"DRY PEAS                      ",3582960
+2006,"FLUE CURED TOBACCO            ",23575687
+2006,"FORAGE PRODUCTION             ",10619723
+2006,"FRESH MARKET TOMATOES         ",2240552
+2006,"GRAIN SORGHUM                 ",15570384
+2006,"GRAPEFRUIT TREES              ",3016758
+2006,"GRAPES                        ",3125706
+2006,"MILLET                        ",1252673
+2006,"NURSERY (FG&C)                ",275493296
+2006,"ONIONS                        ",5504576
+2006,"ORANGE TREES                  ",1153830
+2006,"PEACHES                       ",1614575
+2006,"PEANUTS                       ",8251617
+2006,"PECANS                        ",1701416
+2006,"PEPPERS                       ",2169575
+2006,"POTATOES                      ",5001893
+2006,"RANGELAND                     ",24339564
+2006,"RICE                          ",4580298
+2006,"SILAGE SORGHUM                ",12927200
+2006,"SOYBEANS                      ",45188434
+2006,"SUNFLOWERS                    ",7099238
+2006,"TABLE GRAPES                  ",1017843
+2006,"TOMATOES                      ",1829444
+2006,"WHEAT                         ",332751707
+2007,"ADJUSTED GROSS REVENUE        ",1044832
+2007,"All Other Crops               ",14784802
+2007,"APPLES                        ",13954886
+2007,"AVOCADOS                      ",1500874
+2007,"BARLEY                        ",3663185
+2007,"BURLEY TOBACCO                ",5079478
+2007,"CANOLA                        ",9637407
+2007,"CORN                          ",403742302
+2007,"COTTON                        ",35109236
+2007,"COTTON EX LONG STAPLE         ",2803269
+2007,"DRY BEANS                     ",1191425
+2007,"FLUE CURED TOBACCO            ",25696373
+2007,"FRESH MARKET TOMATOES         ",13113670
+2007,"GRAIN SORGHUM                 ",8265462
+2007,"HYBRID CORN SEED              ",1049433
+2007,"NAVEL ORANGES                 ",41043351
+2007,"NURSERY (FG&C)                ",6538344
+2007,"ONIONS                        ",4346184
+2007,"PASTURE,RANGELAND,FORAGE      ",5685412
+2007,"PEACHES                       ",12262977
+2007,"PEANUTS                       ",7699075
+2007,"POTATOES                      ",12202651
+2007,"PRUNES                        ",21828583
+2007,"RAISINS                       ",2932991
+2007,"RANGELAND                     ",5894179
+2007,"SOYBEANS                      ",177215923
+2007,"SUGAR BEETS                   ",2899263
+2007,"VALENCIA ORANGES              ",14808689
+2007,"WHEAT                         ",337493955
+2008,"ADJUSTED GROSS REVENUE        ",2848871
+2008,"All Other Crops               ",2369959
+2008,"APPLES                        ",34177732
+2008,"AVOCADOS                      ",1569197
+2008,"BARLEY                        ",3876154
+2008,"BURLEY TOBACCO                ",5777160
+2008,"CANOLA                        ",12823809
+2008,"CHERRIES                      ",2120135
+2008,"CIGAR BINDER TOBACCO          ",4926663
+2008,"CORN                          ",1407876825
+2008,"COTTON                        ",331872995
+2008,"COTTON EX LONG STAPLE         ",3156135
+2008,"DRY BEANS                     ",3087010
+2008,"DRY PEAS                      ",10793031
+2008,"FLUE CURED TOBACCO            ",22623840
+2008,"GRAIN SORGHUM                 ",37494248
+2008,"GRAPES                        ",8552020
+2008,"MACADAMIA NUTS                ",1039015
+2008,"NURSERY (FG&C)                ",1472832
+2008,"ONIONS                        ",5216897
+2008,"PASTURE,RANGELAND,FORAGE      ",31934319
+2008,"PEACHES                       ",1241618
+2008,"PEANUTS                       ",3543937
+2008,"PECANS                        ",3358922
+2008,"PEPPERS                       ",1417300
+2008,"POTATOES                      ",3451940
+2008,"PRUNES                        ",7889204
+2008,"RANGELAND                     ",2714877
+2008,"RICE                          ",2353666
+2008,"SOYBEANS                      ",1577421553
+2008,"SUGAR BEETS                   ",20964270
+2008,"SUNFLOWERS                    ",26636505
+2008,"TABLE GRAPES                  ",2858910
+2008,"WHEAT                         ",591744206
+2009,"ADJUSTED GROSS REVENUE        ",3410960
+2009,"All Other Crops               ",17773513
+2009,"ALMONDS                       ",21456056
+2009,"APPLES                        ",30857572
+2009,"AVOCADOS                      ",8337603
+2009,"BURLEY TOBACCO                ",19452796
+2009,"CANOLA                        ",18114617
+2009,"CHERRIES                      ",25111832
+2009,"CIGAR BINDER TOBACCO          ",13324720
+2009,"CIGAR WRAPPER TOBACCO         ",2013929
+2009,"CLAMS                         ",1328425
+2009,"CORN                          ",357853479
+2009,"COTTON                        ",243568987
+2009,"COTTON EX LONG STAPLE         ",46367963
+2009,"DRY BEANS                     ",16250019
+2009,"FLAX                          ",1273703
+2009,"FLUE CURED TOBACCO            ",24572019
+2009,"FRESH MARKET TOMATOES         ",13041715
+2009,"GRAIN SORGHUM                 ",45403092
+2009,"GRAPES                        ",5947674
+2009,"MANDARINS                     ",1402662
+2009,"NAVEL ORANGES                 ",6035283
+2009,"NURSERY (FG&C)                ",10067468
+2009,"ONIONS                        ",12152095
+2009,"ORANGE TREES                  ",2283946
+2009,"PASTURE,RANGELAND,FORAGE      ",13886189
+2009,"PEACHES                       ",3961818
+2009,"PEANUTS                       ",4660585
+2009,"PECANS                        ",1350551
+2009,"PLUMS                         ",1248889
+2009,"POTATOES                      ",15089004
+2009,"RICE                          ",9492604
+2009,"SOYBEANS                      ",97152764
+2009,"SUGAR BEETS                   ",16909964
+2009,"SUNFLOWERS                    ",2187081
+2009,"TOMATOES                      ",5005365
+2009,"WHEAT                         ",943448653
+2010,"ADJUSTED GROSS REVENUE        ",5200064
+2010,"All Other Crops               ",13828671
+2010,"ALMONDS                       ",6751976
+2010,"APPLES                        ",37424286
+2010,"BURLEY TOBACCO                ",14496357
+2010,"CANOLA                        ",5010969
+2010,"CHERRIES                      ",16262741
+2010,"CIGAR BINDER TOBACCO          ",1266109
+2010,"CITRUS VII                    ",1175265
+2010,"CLAMS                         ",1210063
+2010,"CORN                          ",802368217
+2010,"COTTON                        ",91248489
+2010,"COTTON EX LONG STAPLE         ",19176259
+2010,"CRANBERRIES                   ",1023825
+2010,"DRY BEANS                     ",13774084
+2010,"DRY PEAS                      ",6235094
+2010,"FLUE CURED TOBACCO            ",27182789
+2010,"FORAGE PRODUCTION             ",2885843
+2010,"FRESH MARKET TOMATOES         ",9072504
+2010,"GRAIN SORGHUM                 ",5556472
+2010,"GRAPES                        ",2960659
+2010,"HYBRID CORN SEED              ",1259756
+2010,"NURSERY (FG&C)                ",17158423
+2010,"ONIONS                        ",4268553
+2010,"PASTURE,RANGELAND,FORAGE      ",18024322
+2010,"PEANUTS                       ",18844290
+2010,"POTATOES                      ",11387954
+2010,"RICE                          ",3997738
+2010,"SOYBEANS                      ",135301982
+2010,"SUGAR BEETS                   ",1668001
+2010,"SUNFLOWERS                    ",21200315
+2010,"WHEAT                         ",75768902
+2011,"ADJUSTED GROSS REVENUE        ",5038080
+2011,"All Other Crops               ",65223940
+2011,"APPLES                        ",23442506
+2011,"BARLEY                        ",31269976
+2011,"BURLEY TOBACCO                ",15044582
+2011,"CANOLA                        ",76459452
+2011,"CHERRIES                      ",18061555
+2011,"CIGAR BINDER TOBACCO          ",1394217
+2011,"CIGAR WRAPPER TOBACCO         ",1365322
+2011,"CORN                          ",1740346719
+2011,"COTTON                        ",1963620102
+2011,"DRY BEANS                     ",8710574
+2011,"DRY PEAS                      ",20796262
+2011,"FLUE CURED TOBACCO            ",113100153
+2011,"FRESH MARKET TOMATOES         ",11670957
+2011,"GRAIN SORGHUM                 ",172797561
+2011,"GRAPES                        ",23377256
+2011,"GREEN PEAS                    ",2833504
+2011,"HYBRID CORN SEED              ",15471702
+2011,"ONIONS                        ",6401713
+2011,"PASTURE,RANGELAND,FORAGE      ",87959357
+2011,"PEANUTS                       ",18886481
+2011,"PECANS                        ",1889120
+2011,"POPCORN                       ",1167765
+2011,"POTATOES                      ",15265214
+2011,"RICE                          ",35731624
+2011,"SOYBEANS                      ",630004865
+2011,"SUGAR BEETS                   ",41512204
+2011,"SUGARCANE                     ",1096522
+2011,"SUNFLOWERS                    ",69009084
+2011,"TOMATOES                      ",5843239
+2011,"WHEAT                         ",1119611068
+2012,"ADJUSTED GROSS REVENUE        ",4508481
+2012,"All Other Crops               ",6474292
+2012,"APPLES                        ",103449762
+2012,"BARLEY                        ",5403862
+2012,"BURLEY TOBACCO                ",10586199
+2012,"CANOLA                        ",9238964
+2012,"CHERRIES                      ",17761028
+2012,"CIGAR BINDER TOBACCO          ",1718729
+2012,"CIGAR WRAPPER TOBACCO         ",1099229
+2012,"CORN                          ",10231031684
+2012,"COTTON                        ",852188624
+2012,"COTTON EX LONG STAPLE         ",15999397
+2012,"DRY BEANS                     ",6018495
+2012,"FLUE CURED TOBACCO            ",8082983
+2012,"FORAGE PRODUCTION             ",10467718
+2012,"FRESH MARKET TOMATOES         ",47919636
+2012,"GRAIN SORGHUM                 ",214057722
+2012,"GRAPES                        ",7054232
+2012,"GREEN PEAS                    ",1354109
+2012,"HYBRID CORN SEED              ",22733763
+2012,"MANDARINS                     ",6126525
+2012,"MILLET                        ",1295537
+2012,"NURSERY (FG&C)                ",3194807
+2012,"Olives                        ",1066258
+2012,"ONIONS                        ",12596112
+2012,"PASTURE,RANGELAND,FORAGE      ",52030417
+2012,"PEACHES                       ",2375121
+2012,"PEANUTS                       ",3153868
+2012,"POPCORN                       ",4500843
+2012,"POTATOES                      ",7746826
+2012,"RICE                          ",30694356
+2012,"SOYBEANS                      ",1437466385
+2012,"SUGAR BEETS                   ",6717190
+2012,"SUNFLOWERS                    ",1603356
+2012,"WHEAT                         ",254834931
+2013,"ADJUSTED GROSS REVENUE        ",1032423
+2013,"All Other Crops               ",11303567
+2013,"APICULTURE                    ",1827782
+2013,"APPLES                        ",25721540
+2013,"BARLEY                        ",6074577
+2013,"BURLEY TOBACCO                ",11886580
+2013,"CANOLA                        ",70874229
+2013,"CHERRIES                      ",15688287
+2013,"CIGAR BINDER TOBACCO          ",2893409
+2013,"CORN                          ",4242669504
+2013,"COTTON                        ",800300111
+2013,"COTTON EX LONG STAPLE         ",21912717
+2013,"DRY BEANS                     ",23056731
+2013,"FLAX                          ",2851138
+2013,"FLUE CURED TOBACCO            ",52481482
+2013,"FORAGE PRODUCTION             ",2366919
+2013,"FRESH MARKET TOMATOES         ",6947016
+2013,"GRAIN SORGHUM                 ",238089825
+2013,"ONIONS                        ",13295834
+2013,"PASTURE,RANGELAND,FORAGE      ",65302705
+2013,"PEACHES                       ",5884637
+2013,"PEANUTS                       ",4299075
+2013,"PECANS                        ",3959815
+2013,"POTATOES                      ",17865702
+2013,"PRUNES                        ",7286629
+2013,"RICE                          ",76172384
+2013,"SESAME                        ",1085494
+2013,"SOYBEANS                      ",494452022
+2013,"SUGAR BEETS                   ",34414078
+2013,"SUNFLOWERS                    ",57403761
+2013,"TOMATOES                      ",2585832
+2013,"WHEAT                         ",1539858223
+2014,"ADJUSTED GROSS REVENUE        ",34430881
+2014,"ADJUSTED GROSS REVENUE-LITE   ",6388855
+2014,"All Other Crops               ",64682588
+2014,"ALMONDS                       ",28628362
+2014,"APICULTURE                    ",4797560
+2014,"APPLES                        ",10970043
+2014,"BARLEY                        ",14526180
+2014,"BURLEY TOBACCO                ",30541975
+2014,"CANOLA                        ",13221650
+2014,"CHERRIES                      ",39390227
+2014,"CIGAR BINDER TOBACCO          ",1271511
+2014,"CORN                          ",2664881738
+2014,"COTTON                        ",500403174
+2014,"COTTON EX LONG STAPLE         ",85782828
+2014,"CULTIVATED WILD RICE          ",1120624
+2014,"DRY BEANS                     ",18652263
+2014,"DRY PEAS                      ",3578524
+2014,"FLUE CURED TOBACCO            ",28404291
+2014,"FORAGE PRODUCTION             ",7192882
+2014,"FRESH MARKET TOMATOES         ",1018485
+2014,"GRAIN SORGHUM                 ",25223673
+2014,"GRAPES                        ",16924643
+2014,"GREEN PEAS                    ",2061239
+2014,"Olives                        ",1354191
+2014,"ONIONS                        ",14465921
+2014,"PASTURE,RANGELAND,FORAGE      ",60174028
+2014,"PEACHES                       ",12667482
+2014,"PEANUTS                       ",23995748
+2014,"Pistachios                    ",15571778
+2014,"POPCORN                       ",1590042
+2014,"POTATOES                      ",7439900
+2014,"RICE                          ",93495984
+2014,"SOYBEANS                      ",425491680
+2014,"SUGAR BEETS                   ",5051141
+2014,"SUNFLOWERS                    ",18886834
+2014,"TABLE GRAPES                  ",2151238
+2014,"TOMATOES                      ",1227319
+2014,"WHEAT                         ",928140442
+2015,"All Other Crops               ",32646461
+2015,"ALMONDS                       ",50571600
+2015,"APICULTURE                    ",11339839
+2015,"APPLES                        ",30042266
+2015,"BLUEBERRIES                   ",2783690
+2015,"BURLEY TOBACCO                ",30802094
+2015,"CANOLA                        ",3555129
+2015,"CHERRIES                      ",30285495
+2015,"CIGAR BINDER TOBACCO          ",1019996
+2015,"CORN                          ",829569179
+2015,"COTTON                        ",153424603
+2015,"COTTON EX LONG STAPLE         ",90050597
+2015,"DRY BEANS                     ",10404322
+2015,"DRY PEAS                      ",15006938
+2015,"FLUE CURED TOBACCO            ",40459138
+2015,"FORAGE PRODUCTION             ",9624890
+2015,"FRESH MARKET TOMATOES         ",1294704
+2015,"GRAIN SORGHUM                 ",5939510
+2015,"GRAPES                        ",38033778
+2015,"ONIONS                        ",24154725
+2015,"PASTURE,RANGELAND,FORAGE      ",29137263
+2015,"PEACHES                       ",4552574
+2015,"PEANUTS                       ",23486797
+2015,"Pistachios                    ",187268914
+2015,"POPCORN                       ",2688073
+2015,"POTATOES                      ",13544230
+2015,"PRUNES                        ",4339007
+2015,"PUMPKINS                      ",1017225
+2015,"RICE                          ",113104369
+2015,"SOYBEANS                      ",356494630
+2015,"SUGAR BEETS                   ",1404727
+2015,"SUNFLOWERS                    ",1033473
+2015,"TABLE GRAPES                  ",3266312
+2015,"TOMATOES                      ",1333824
+2015,"WHEAT                         ",485005778
+2015,"Whole Farm Revenue Protection ",31480156
+2016,"All Other Crops               ",27399085
+2016,"ALMONDS                       ",5902119
+2016,"APPLES                        ",8738067
+2016,"BLUEBERRIES                   ",1091253
+2016,"BURLEY TOBACCO                ",3005400
+2016,"CANOLA                        ",2764817
+2016,"CHERRIES                      ",41054961
+2016,"CORN                          ",177792895
+2016,"COTTON                        ",64922296
+2016,"COTTON EX LONG STAPLE         ",37869220
+2016,"DRY BEANS                     ",14101706
+2016,"DRY PEAS                      ",2281600
+2016,"FIRE CURED TOBACCO            ",1283297
+2016,"FLUE CURED TOBACCO            ",17610428
+2016,"FORAGE PRODUCTION             ",5529837
+2016,"FRESH MARKET TOMATOES         ",4221903
+2016,"GRAPES                        ",1474354
+2016,"ONIONS                        ",15785651
+2016,"PASTURE,RANGELAND,FORAGE      ",21244743
+2016,"PEACHES                       ",1547320
+2016,"PEANUTS                       ",6376654
+2016,"PEPPERS                       ",1059779
+2016,"POTATOES                      ",6774154
+2016,"PROCESSING APRICOTS           ",1477232
+2016,"PRUNES                        ",30383040
+2016,"RICE                          ",13165308
+2016,"SOYBEANS                      ",22708683
+2016,"SUGAR BEETS                   ",22669926
+2016,"TABLE GRAPES                  ",1286817
+2016,"TOMATOES                      ",3841673
+2016,"WHEAT                         ",107441462
