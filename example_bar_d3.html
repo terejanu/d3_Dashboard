@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bar Chart D3</title>
+        <script src="https://d3js.org/d3.v5.min.js"></script>
+
+        <style type="text/css">
+        svg .myrect {
+            fill: steelblue;
+            stroke-width: 0px;
+        }
+        svg .myrect:hover {
+            fill: red;
+        }
+        </style>
+        
+        <script type="text/javascript">
+
+            var myData;
+            var margin = {top: 10, right: 10, bottom: 30, left: 100};
+            var svgWidth = 600 - margin.left - margin.right;
+            var svgHeight = 300 - margin.top - margin.bottom;
+
+            function loadData()
+            {
+              d3.csv("https://raw.githubusercontent.com/terejanu/d3_Dashboard/master/ag_losses.csv")
+                .then(function(data)
+              {
+                myData = d3.nest()
+                            .key(function(d) { return d.Year;})
+                            .rollup(function(d) { 
+                              return d3.sum(d, function(g) {return g.Losses; });
+                            })
+                            .entries(data);
+                // datum = { key : Year, value : sum(Losses) }
+
+                createBarChart();
+              });
+            }
+
+            function createBarChart() {
+
+              var svg = d3.select("body")
+                          .append("svg")
+                          .attr("width", svgWidth + margin.left + margin.right)
+                          .attr("height", svgHeight + margin.top + margin.bottom)
+                          .append("g")
+                          .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+              // generate scales
+              var xScale = d3.scaleBand()
+                                    .domain(myData.map( function(d) 
+                                      { return d.key;
+                                      }))
+                                    .range([0, svgWidth])
+                                    .paddingInner(0.05);
+
+              var yScale = d3.scaleLinear()
+                                    .domain([0, d3.max(myData, function(d) { return d.value; })])
+                                    .range([svgHeight, 0]);
+
+              // generate axis
+              svg.append("g")
+                  .attr("transform", "translate(0," + (svgHeight) + ")")
+                  .call(d3.axisBottom(xScale));
+
+              svg.append("g")
+                  // .attr("transform", "translate(0," + (svgHeight) + ")")
+                  .call(d3.axisLeft(yScale));
+
+              // generate bars
+              svg.selectAll("rect")
+                  .data(myData)
+                  .enter()
+                  .append("rect")
+                  .attr("x", function(d, i)
+                    {
+                      // console.log( i + " " + xScale(d.key) );
+                      return xScale(d.key);
+                    })
+                  .attr("y", function(d, i)
+                    {
+                      return yScale(d.value);
+                    })
+                  .attr("height", function(d, i)
+                    {
+                      return svgHeight-yScale(d.value);
+                    })
+                  .attr("width", function(d, i)
+                    {
+                      return xScale.bandwidth();
+                    })
+                  .attr("class", "myrect");
+
+            }
+
+            window.onload = loadData;
+
+        </script>
+
+
+    </head>
+
+
+    <body>
+
+    </body>
+</html>

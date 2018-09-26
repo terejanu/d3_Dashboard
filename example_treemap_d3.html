@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bar Chart D3</title>
+        <script src="https://d3js.org/d3.v5.min.js"></script>
+
+        <style type="text/css">
+        svg {
+          font: 10px sans-serif;
+        }
+        svg .myrect:hover {
+            fill: red;
+        }
+        svg .text {
+            fill: black;
+        }
+        </style>
+        
+        <script type="text/javascript">
+
+            var myData;
+            var margin = {top: 10, right: 10, bottom: 30, left: 100};
+            var svgWidth = 800 - margin.left - margin.right;
+            var svgHeight = 500 - margin.top - margin.bottom;
+
+            function loadData()
+            {
+              d3.csv("https://raw.githubusercontent.com/terejanu/d3_Dashboard/master/ag_losses.csv")
+                .then(function(data)
+              {
+                myData = d3.nest()
+                            .key(function(d) { return d.Commodity_Name.replace(/ /g, '');})
+                            .rollup(function(d) { 
+                              return d3.sum(d, function(g) {return g.Losses; });
+                            })
+                            .entries(data);
+                // datum = { key : Commodity_Name, value : sum(Losses) }
+
+                createTreeMap();
+              });
+            }
+
+            function reSortRoot(root,value_key) {
+              //console.log("Calling");
+              for (var key in root) {
+                if (key == "key") {
+                  root.name = root.key;
+                  delete root.key;
+                }
+                if (key == "values") {
+                  root.children = [];
+                  for (item in root.values) {
+                    root.children.push(reSortRoot(root.values[item]));
+                  }
+                  delete root.values;
+                }
+              }
+              return root;
+            }
+
+            function createTreeMap() {
+
+              var svg = d3.select("body")
+                          .append("svg")
+                          .attr("width", svgWidth + margin.left + margin.right)
+                          .attr("height", svgHeight + margin.top + margin.bottom)
+                          .append("g")
+                          .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+              // generate scale colors
+              var colorScale = d3.scaleOrdinal()
+                                    .domain(myData.map( function(d) 
+                                      { return d.key;
+                                      }))
+                                    .range(d3.schemePaired);
+            
+              // create hierarchical structure
+              // myData is just an array
+
+              console.log(myData);
+
+              var tmpTree = {};      
+              tmpTree.key = "Data";
+              tmpTree.values = myData;
+
+              console.log(tmpTree);
+
+              // rename key -> name and add children
+              var myTree = reSortRoot(tmpTree);
+
+              // generate a true hierarchical structure
+              var root = d3.hierarchy(myTree)
+                    .eachBefore(function(d) { d.data.id = (d.parent ? d.parent.data.id + "." : "") + d.data.name; })
+                    .sum(function(d) { return d.value; })
+                    .sort(function(a, b) { return b.value - a.value; });;
+              // console.log( root )
+
+              console.log(root);
+
+              // new treemap layout
+              var treemap = d3.treemap()
+                  .size([svgWidth, svgHeight])
+                  .padding(1)
+                  .round(true);
+
+              treemap(root);
+
+              // add cells
+              var cell = svg.selectAll("rect")
+                  .data(root.leaves())
+                  .enter()
+                  .append("rect")
+                  .attr("id", function(d) { return d.data.id; })
+                  .attr("x", function(d) { return d.x0; })
+                  .attr("y", function(d) { return d.y0; })                  
+                  .attr("width", function(d) { return d.x1 - d.x0; })
+                  .attr("height", function(d) { return d.y1 - d.y0; })
+                  .attr("class", "myrect")
+                  .attr("fill", function(d) { return colorScale(d.data.name); });
+
+              // add text
+              var cell = svg.selectAll("clipPath")
+                  .data(root.leaves())
+                  .enter()
+                  .append("clipPath")
+                  .attr("id", function(d) { return "clip-" + d.data.id; })
+                  .append("use")
+                  .attr("xlink:href", function(d) { return "#" + d.data.id; });
+
+              var cell = svg.selectAll("text")
+                  .data(root.leaves())
+                  .enter()
+                  .append("text")
+                  .attr("clip-path", function(d) { return "url(#clip-" + d.data.id + ")"; })
+                  .attr("class", "text")
+                  .attr("x", function(d) { return d.x0; })
+                  .attr("y", function(d) { return d.y0+margin.top; })
+                  .text(function(d) { return d.data.name; });
+
+            }
+
+            window.onload = loadData;
+
+        </script>
+
+
+    </head>
+
+
+    <body>
+
+    </body>
+</html>
